@@ -1,0 +1,33 @@
+
+body{
+    font-family: sans-serif;
+    text-align: center; 
+    background-color: black;
+    color: white;
+}
+h1 { 
+    margin: 70px;
+}
+.name {
+    font-size: 50px;
+}
+.result {
+    display: -webkit-flex;
+    display: -ms-flexbox;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px; 
+}
+.result_right { 
+    border: 10px solid white;
+    width: 50%;
+    font-size: 30px;  
+    margin: 10px;
+}
+.result_wrong { 
+    border: 10px solid white;
+    width: 50%;
+    font-size: 30px;
+    margin: 10px;
+}
